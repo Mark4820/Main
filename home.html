@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+ 	  <meta name="keywords" content="Mb">
+  	<meta name="author" content="mark">
+    <title>Welcome Home</title>
+    <link rel="stylesheet" href="./css/style.css">  
+  </head>
+       
+       
+
+
+<style>
+ .background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: -1;
+    animation: animateBackground 20s linear infinite alternate;
+  }
+
+  @keyframes animateBackground {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0.8;
+    }
+  }
+</style>
+</head>
+<body>
+<div class="background"></div>
+
+
+
+
+
+ 
+         
+    <header>
+      <div class="container">
+        <div id="branding">
+         
+          <h1><span class="highlight">MARK WILSON</span> Barandino</h1>
+       
+          <img src="/storage/emulated/0/DCIM/A website/mblogo.jpg" width="60" height="60">
+        </div>
+        <nav>
+          <ul>
+            <li class="current"><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+           <li><a
+href="education.html">Education</a></li>
+            <li><a
+href="skills.html">Skills </a></li>
+            <li><a
+href="hobbies.html">Hobbies</a></li>
+            <li><a
+href="picture.html">Photo</a></li> 
+<li><a
+href="contact.html">Contact</a></li>
+            <li><a
+
+        </ul>
+        </nav>
+      </div>
+    </header>
+    <style>
+        
+  @keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+
+  /* Apply animation to heading */
+  h2 {
+    overflow: hidden;
+    border-right: .15em solid orange; /* creates the typewriter cursor effect */
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .12em;
+    animation: typing 3s steps(30, end) forwards;
+  }
+
+ 
+</style>
+
+
+    <section id="showcase">
+      <div class="container">
+        <h2> Hi! I am Mark Wilson S. Barandino Im Your Buddy</h2>
+         <h2 style="color: yellow;">I can Be Your System Analyst</h2>
+          <h2 style="color: Red;">I can Be Your Web Developer/Programmer</h2>
+           <h2 style="color: lightblue;">What you need, is what you got 😉</h2>
+       
+        <img src="/storage/emulated/0/DCIM/A website/uniformpic.jpg" width="290" height="290">
+        
+          <p style="color: lightgreen;">"You don't need anyone's permission to chase your dreams. You only need your own permission because you are the one that can create the roadblocks in your life or open up the way for your success."--- Mark MyWords</p>
+          <br>
+          <p style="color: White;">
+        If you need Assistance Just Contact or  Send Me an Email, I'm your Working Buddy.😉
+        </p>
+        
+        <a href="mailto: markwilson482000@gmail.com?subject=Your%20Subject&body=Your%20message%20here">markwilson482000@gmail.com</a>
+              </div>
+    </section>
+
+    <section id="Emailus">
+      <div class="container">
+        <h3 style="color: white;text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;">Subscribe For Update</h3>
+        <form>
+          <input type="email" placeholder="Enter Email..." required>
+          <button type="submit" class="button_1">Subscribe</button>
+        </form>
+      </div>
+    </section>
+    
+    
+<!-- Popup content -->
+<div class="popup">
+  <p>Thank you for visiting Mark Wilson Barandino website!</p>
+</div>
+
+<script>
+  // Script to display the popup after the page loads
+  window.onload = function() {
+    // Get the popup element
+    var popup = document.querySelector('.popup');
+    // Show the popup
+    popup.style.display = 'block';
+    // Close the popup after 3 seconds (adjust as needed)
+    setTimeout(function(){
+      popup.style.display = 'none';
+    }, 3000);
+  };
+</script>
+
+<div class="loader"></div>
+
+<script>
+    // JavaScript to hide loader after 10 minutes
+    setTimeout(function(){
+      document.querySelector('.loader').style.display = 'none';
+    }, 2000); 
+  </script>
+  
+
+    <footer>
+      <p>Mark Wilson Barandino Web Design, Copyright &copy; 2024</p>
+    </footer>
+  </body>
+  
+    
+</html>
